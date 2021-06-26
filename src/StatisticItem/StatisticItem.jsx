@@ -1,5 +1,5 @@
 import css from './StatisticItem.module.css';
-import getColor from '../utils/randomColor';
+import getColor from 'utils/randomColor';
 import PropTypes from 'prop-types';
 
 const StatisticItem = ({ data }) => {

@@ -1,19 +1,22 @@
-import Profile from './Profile/Profile';
-import user from './user/user';
-import Statistic from './Statistic/Statistic';
-import statisticData from './statisticData/statistical-data';
+import Profile from 'Profile/Profile';
+import userData from 'user/user';
+import Statistic from 'Statistic/Statistic';
+import statisticData from 'statisticData/statistical-data';
+import FriendList from 'FriendList/FriendList';
+import friendsData from 'friends/friends';
 
 const App = () => {
   return (
     <>
       <Profile
-        name={user.name}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
+        name={userData.name}
+        tag={userData.tag}
+        location={userData.location}
+        avatar={userData.avatar}
+        stats={userData.stats}
       />
       <Statistic title="Upload stats" data={statisticData} />
+      <FriendList friends={friendsData} />
     </>
   );
 };
