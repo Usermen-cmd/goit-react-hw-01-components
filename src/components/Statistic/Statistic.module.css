@@ -1,3 +1,7 @@
+.statList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
 .statistic {
   display: block;
   background-color: #fff;

@@ -6,14 +6,21 @@ const Statistic = ({ title, data }) => {
   return (
     <section className={css.statistic}>
       {title.trim() ? <h2 className={css.title}>{title}</h2> : ''}
-      <StatisticItem data={data} />
+      <ul className={css.statList}>
+        {data.map(item => {
+          return <StatisticItem key={item.id} dataItem={item} />;
+        })}
+      </ul>
     </section>
   );
 };
 
 Statistic.propTypes = {
-  title: PropTypes.string,
-  data: PropTypes.arrayOf(PropTypes.object.isRequired),
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    }),
+  ),
 };
 
 export default Statistic;

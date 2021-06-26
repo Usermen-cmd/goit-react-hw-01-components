@@ -1,5 +1,8 @@
 .tableItem:nth-child(2n) {
-  background-color: brown;
+  background-color: rgb(193, 252, 181);
+}
+.tableItem:nth-child(2n + 1) {
+  background-color: rgb(252, 201, 181);
 }
 .tableItem td {
   text-align: center;
