@@ -1,0 +1,10 @@
+.statistic {
+  width: 350px;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5c5858;
+  font-weight: 500;
+}
