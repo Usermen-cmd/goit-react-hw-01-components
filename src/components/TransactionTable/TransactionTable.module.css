@@ -1,0 +1,14 @@
+.transactionHistory {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.headers {
+  padding: 20px;
+  background-color: #ccc;
+}
+.headerItem {
+  padding: 10px;
+}

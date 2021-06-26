@@ -1,4 +1,4 @@
-import css from 'Friend/Friend.module.css';
+import css from './Friend.module.css';
 import { BsFillCircleFill } from 'react-icons/bs';
 import defaultAvatar from './default.jpg';
 

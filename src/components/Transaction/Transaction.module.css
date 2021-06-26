@@ -1,0 +1,7 @@
+.tableItem:nth-child(2n) {
+  background-color: brown;
+}
+.tableItem td {
+  text-align: center;
+  padding: 5px;
+}
